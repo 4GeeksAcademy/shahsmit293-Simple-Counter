@@ -12,7 +12,7 @@ const Home = (props) => {
   };
 
   const resume = () => {
-    setInterval(data, 100);
+    setInterval(data, 1000);
   };
 
   return (
@@ -32,9 +32,9 @@ const Home = (props) => {
 };
 
 Home.propTypes = {
-  digitone: propTypes.number,
-  digittwo: propTypes.number,
-  digitthree: propTypes.number,
-  digitfour: propTypes.number,
+  digitone: propTypes.string,
+  digittwo: propTypes.string,
+  digitthree: propTypes.string,
+  digitfour: propTypes.string,
 };
 export default Home;
